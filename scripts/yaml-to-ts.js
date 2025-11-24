@@ -133,7 +133,10 @@ Object.entries(data).forEach(([key, value]) => {
         .split("/")
         .pop() || "";
     value.repoName = repoName;
-    value.base = `/${repoName}/`;
+    // Only set base path if not explicitly defined in YAML
+    if (!value.base) {
+      value.base = `/${repoName}/`;
+    }
   }
 
   // check for items array with featured property
