@@ -1,0 +1,313 @@
+<!--
+origin repo: https://github.com/pm25/Showlit
+author: Pin-Yen Huang
+-->
+
+<a id="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/pm25/showlit">
+    <img src="/public/images/full_logo.png" alt="Logo" width="640">
+  </a>
+
+  <h3 align="center">Showlit – A Modern and Clean Personal Website Template</h3>
+
+  <p align="center">
+    Build your personal website effortlessly with <strong>✨Showlit</strong>!  <br>
+    This fully customizable React-based template is perfect for showcasing your portfolio with ease.
+    <br />
+    <br />
+    <a href="https://pm25.github.io/showlit">🌐 Live Demo</a>
+    ·
+    <a href="https://github.com/pm25/showlit/issues/new?labels=bug&template=bug-report---.md">🐞 Report Bug</a>
+    ·
+    <a href="./CHANGELOG.md">📄 Update Log</a>
+  </p>
+</div>
+
+<p align="center">
+  🚧 This project is still under construction! 🚧
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-template">About The Template</a></li>
+    <li><a href="#preview">Preview</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Template
+
+**✨Showlit** is a React-based website template that makes building a personal website easy. It offers modern UI components, useful built-in features, and flexible customization options. Showlit strikes a balance between simplicity and flexibility, letting you get started quickly while still tailoring your site to your style.
+
+**Why Showlit?**
+
+- ⚡ **Quick Setup** – Get your site running in minutes.
+- 🎨 **Customizable** – Easily adjust the design (basic react skills required).
+- 🔧 **Built-in Features** – Includes a blog, automatic project fetching, and more.
+- 👥 **Beginner-Friendly** – No advanced coding needed to get started.
+
+✨ **Found this project useful?** Give it a ⭐ to support the project!
+
+### 🛠️ Built With
+
+This project is primarily built using the following frameworks and libraries:
+
+- [![React][React.js]][React-url]
+- [![Vite][Vite]][Vite-url]
+- [![Tailwind CSS][Tailwind.css]][Tailwind-url]
+- [![Typescript][Typescript]][Typescript-url]
+- [![shadcn/ui][shadcn.ui]][shadcn-url]
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+## Preview
+
+See how ✨Showlit looks in both light and dark themes:
+
+### 🌞 Light Mode
+
+![Light Mode][screenshot-light]
+
+### 🌚 Dark Mode
+
+![Dark Mode][screenshot-dark]
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+There are two ways to use this template:
+
+1. Quick Setup (no local development required)
+2. Local Development + Manual Deployment
+
+### 🚀 Quick Setup (Recommended)
+
+<!-- This option **doesn't require local development**. Just update the configuration files, commit, and push. GitHub Actions will automatically build and deploy your site. -->
+
+**1️⃣ Fork this repository**
+
+Or click **"Use this template"** to create your own repository.
+
+**2️⃣ Configure GitHub Pages deployment**
+
+Go to your **Repository Settings** → **Pages**
+Select:
+
+- **Branch:** gh-pages
+- **Folder:** /(root)
+
+Then click **Save**.
+
+**3️⃣ Update config files in `/config`:**
+
+- [`site.yaml`](/config/site.yaml) — website title, metadata, etc.
+- [`profile.yaml`](/config/profile.yaml) — your name, email, profile image, etc.
+- [`publications.yaml`](/config/publications.yaml) — (optional) research publications list
+
+**4️⃣ Commit and push changes to `main` branch**
+
+Ensure your changes are pushed (or merged) into the `main` branch.
+
+GitHub Actions will automatically:
+
+- Build the project
+- Deploy to GitHub Pages
+- Publish your website 🎉
+
+Wait a few minutes, your website will be available at:
+
+```html
+https://<your-github-username>.github.io/<your-repo-name>
+```
+
+### 🧑‍💻 Local Development & Manual Deployment
+
+This option is recommended if you want to **customize components**, **styles**, or **add new features**.
+
+#### 📌 Requirements
+
+- [Node.js](https://nodejs.org/) - version 20+
+- npm
+
+Update npm to the latest version if needed:
+
+```sh
+npm install npm@latest -g
+```
+
+#### 🛠️ Local Setup
+
+**1️⃣ Fork this repository**
+
+Or click **"Use this template"** to create your own repository, then clone it locally:
+
+```sh
+git clone https://github.com/<your-github-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
+
+**2️⃣ Configure GitHub Pages deployment**
+
+Go to your **Repository Settings** → **Pages**
+Select:
+
+- **Branch:** gh-pages
+- **Folder:** /(root)
+
+Then click **Save**.
+
+**3️⃣ Install dependencies**
+
+From the project folder, install all required packages:
+
+```sh
+npm install
+```
+
+**4️⃣ Start the development server**
+
+Run:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) (or the URL shown in your terminal) in your browser.
+Your site should now be running locally.
+
+**💡Notes:** Changes to configs or new articles may require a fresh build to appear in the local preview. Run:
+
+```sh
+npm run build
+npm run dev
+```
+
+#### 📦 Manual Deployment
+
+To publish the site to GitHub Pages:
+
+```sh
+npm run deploy
+```
+
+This will:
+
+- Build your website for production
+- Push static assets to the `gh-pages` branch
+- Deploy your site on GitHub Pages 🎉
+
+Wait a few minutes, your website will be available at:
+
+```html
+https://<your-github-username>.github.io/<your-repo-name>
+```
+
+#### 🔁 Switch Anytime
+
+You can freely switch between:
+
+- Updating config files only (Quick Setup)
+- Full local development and customization
+
+Your workflow stays flexible. 💪
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- USAGE -->
+
+## Usage
+
+### ✏️ Customize Content
+
+You can personalize the website by updating the configuration files located in the [config](config) folder. Any changes will be automatically applied when the site is built or deployed.
+
+For example, in [config/profile.yaml](config/profile.yaml), you can update the information with your owns:
+
+```yaml
+profile:
+  name: "Pin-Yen Huang"
+  headline: "Student @ National Taiwan University"
+  email: "pyhuang97@gmail.com"
+  profile_image: "https://github.com/pm25.png"
+  # ...other fields
+```
+
+Other configurable files include:
+
+- Website Information: [config/site.yaml](config/site.yaml)
+- Profile Information: [config/profile.yaml](config/profile.yaml)
+- Publications: [config/publications.yaml](config/publications.yaml)
+
+### 📝 Add Articles
+
+To add a article, create a folder and Markdown file inside [public/articles](public/articles) following this structure:
+
+```sh
+# 💡 the folder name and Markdown filename must be the same
+/public/articles/{slug}/{slug}.md
+```
+
+You can use [public/articles/template/template.md](public/articles/template/template.md) as a reference.
+
+When the site is built or deployed, any properly structured articles will be automatically included and indexed.
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Pin-Yen Huang - [pyhuang97@gmail.com](mailto:pyhuang97@gmail.com)
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+I am deeply grateful for the following tools and resources that contributed to the development of this project:
+
+- [giscus](https://giscus.app)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right"><a href="#readme-top">⬆️ Back to top</a></p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[screenshot-light]: preview/light-mode.webp
+[screenshot-dark]: preview/dark-mode.webp
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://react.dev
+[shadcn.ui]: https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white
+[shadcn-url]: https://ui.shadcn.com
+[Tailwind.css]: https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC
+[Tailwind-url]: https://tailwindcss.com
+[Typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org
+[Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
+[Vite-url]: https://vite.dev
