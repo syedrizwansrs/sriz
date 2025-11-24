@@ -62,7 +62,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
                 <div className="flex flex-col w-full items-center justify-center gap-2 -mt-2 mb-3 group-data-[collapsible=icon]:mb-0">
                     <Avatar className="w-24 h-24 group-data-[collapsible=icon]:w-0 group-data-[collapsible=icon]:h-0 transition-all duration-200">
-                        <AvatarImage src="https://github.com/shadcn.png" />
+                        <AvatarImage src="https://scontent.fblr8-1.fna.fbcdn.net/v/t39.30808-6/385368993_6968919276464501_8938663633932355577_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kwLQl_1Xo7gQ7kNvwGCbqEv&_nc_oc=Adm3BVH__UPxval8F7r6qx9sah9lgCI_Bb3yWrbn30aB2bUO5dBeWEu_61d_GyjDyyI&_nc_zt=23&_nc_ht=scontent.fblr8-1.fna&_nc_gid=de2vav1cFjkhfM_ub6Ru8A&oh=00_AfjbQYkDrNEz3AeqfhDYSYJ77YREln-d1RRikzwPxkVSDQ&oe=692A29A7" />
                         <AvatarFallback>PY</AvatarFallback>
                     </Avatar>
                     <span className="text-sm font-semibold group-data-[collapsible=icon]:hidden">
