@@ -39,6 +39,12 @@ jobs:
           echo "REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)" >> $GITHUB_ENV
           echo "REPO_URL=https://github.com/$GITHUB_REPOSITORY" >> $GITHUB_ENV
 
+      - name: Clean Vite cache
+        run: rm -rf node_modules/.vite
+
+      - name: Clean dist folder
+        run: rm -rf dist
+
       - name: Build project
         run: npm run build
         env:
