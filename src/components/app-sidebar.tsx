@@ -66,7 +66,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                         <AvatarFallback>PY</AvatarFallback>
                     </Avatar>
                     <span className="text-sm font-semibold group-data-[collapsible=icon]:hidden">
-                        Pin-Yen Huang
+                        Rizwan Syed
                     </span>
                 </div>
 
