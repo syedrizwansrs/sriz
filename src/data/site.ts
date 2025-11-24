@@ -1,8 +1,8 @@
 export const site = {
-  name: `Showlit`,
-  repoUrl: `https://github.com/pm25/showlit`,
+  name: `Rizwan Syed`,
+  repoUrl: `https://github.com/syedrizwansrs/sriz`,
   description: `A short description`,
-  author: `Your Name`,
-  repoName: `showlit`,
-  base: `/showlit/`
+  author: `Rizwan Syed`,
+  repoName: `sriz`,
+  base: `/`
 };
