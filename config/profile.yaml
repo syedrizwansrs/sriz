@@ -4,7 +4,7 @@
 profile:
   name: "Rizwan Syed"
   headline: "Technical Operations Manager @ Connex Carrier Services"
-  email: "syedrizwan.srs@gmail.com"
+  email: "syedrizwansrs@gmail.com"
   location: "India"
 
   profile_image: "https://avatars.githubusercontent.com/u/144785207?v=4"
@@ -58,22 +58,22 @@ workExperience:
   - title: "Technical Operations Manager"
     company: "Connex Carrier Services"
     years: "2018 - Present"
-    logo: "https://www.connexcs.com/static/images/logo.svg"
+    logo: "https://connexcs.com/_nuxt/connexcs.BemWudCB.png"
 
   - title: "Network & Technical Support Engineer"
     company: "World Resorts Ltd."
     years: "2016 - 2018"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Beach_resort_icon.png"
+    logo: "https://cdn0.iconfinder.com/data/icons/summer-flat-once-in-a-life-time/512/Beach_resort-512.png"
 
   - title: "Director"
     company: "Eve Inventions"
     years: "2014 - 2016"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gear_icon.svg"
+    logo: "https://cdn-icons-png.flaticon.com/512/2905/2905064.png"
 
   - title: "Technical Support Engineer"
     company: "Digipigeon"
     years: "2013 - 2014"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Helpdesk_icon.png"
+    logo: "https://www.digipigeon.com/img/digipigeon-logo.png"
 
 # =====================================================
 # 🗣️ Presentations / Talks Section
