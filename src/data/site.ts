@@ -1,8 +1,8 @@
 export const site = {
   name: `Rizwan Syed`,
-  repoUrl: `https://github.com/syedrizwansrs/sriz`,
-  description: `A short description`,
+  repoUrl: `https://github.com/syedrizwansrs/sriz-me`,
+  description: `Technical Operations Manager | SIP, VoIP, Networking & Automation`,
   author: `Rizwan Syed`,
-  repoName: `sriz`,
-  base: `/`
+  base: `/sriz-me/`,
+  repoName: `sriz-me`
 };
