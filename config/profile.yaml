@@ -1,126 +1,111 @@
 # =====================================================
-# 💡 Tip for Images / Logo:
-# You can use either:
-# 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# =====================================================
-
-# =====================================================
 # 👤 Personal Information
 # =====================================================
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: "[Your City, Country]" # FIXME: Not implemented yet
+  name: "Rizwan Syed"
+  headline: "Technical Operations Manager @ Connex Carrier Services"
+  email: "syedrizwan.srs@gmail.com"
+  location: "India"
 
-  # Profile image: URL or local file
-  profile_image: "https://github.com/pm25.png"
+  profile_image: "https://avatars.githubusercontent.com/u/144785207?v=4"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/syedrizwansrs"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
-      icon:
-        name: "FaGoogleScholar"
-        package: "react-icons/fa6"
-
-    - name: "Résumé"
-      url: "https://example.com/your-cv.pdf"
-      icon:
-        name: "FaRegIdBadge"
-        package: "react-icons/fa6"
-
-    - name: "Github"
-      url: "https://github.com/[your-github]"
+    - name: "GitHub"
+      url: "https://github.com/syedrizwansrs"
       icon:
         name: "FaGithub"
         package: "react-icons/fa6"
 
     - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
+      url: "https://www.facebook.com/syedrizwansrs"
       icon:
         name: "FaSquareFacebook"
         package: "react-icons/fa6"
 
-  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
+    Hi! I'm <strong>Rizwan Syed</strong>, a <em>Technical Operations Manager</em> with over a decade of experience in <strong>SIP, VoIP, Networking, Linux, Automation, and large-scale system monitoring</strong>. I currently work at <em>Connex Carrier Services</em>, where I oversee mission-critical infrastructure, automate operational workflows, and ensure high-availability systems for global telecom carriers.
+
+    With a background in <em>server management, SIP technologies, system monitoring, and customer-focused technical leadership</em>, I enjoy solving complex operational challenges, optimizing performance, and building reliable distributed systems. I’m also a <strong>SSCA® Elite certified specialist</strong>, and my work spans automation, backend architecture, DevOps tooling, and real-time telecom systems.
+
     <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Outside of work, I enjoy exploring new technologies, building personal productivity systems, and working on long-term tech projects.  
+    Feel free to <a href="mailto:syedrizwan.srs@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> — always happy to connect!
 
-# # =====================================================
-# # 🎓 Education Section
-# # =====================================================
+# =====================================================
+# 🎓 Education Section
+# =====================================================
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "Bachelor of Business Management (BBM)"
+    school: "Bangalore University"
+    years: "2010 - 2013"
+    logo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Bangalore_University_logo.png"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
+  - degree: "Diploma in Computer Applications"
+    school: "DCA Program"
+    years: "2008 - 2009"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Computer_icon.svg"
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
-
-# # =====================================================
-# # 💼 Work Experience Section
-# # =====================================================
+# =====================================================
+# 💼 Work Experience Section
+# =====================================================
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+  - title: "Technical Operations Manager"
+    company: "Connex Carrier Services"
+    years: "2018 - Present"
+    logo: "https://www.connexcs.com/static/images/logo.svg"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+  - title: "Network & Technical Support Engineer"
+    company: "World Resorts Ltd."
+    years: "2016 - 2018"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Beach_resort_icon.png"
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
+  - title: "Director"
+    company: "Eve Inventions"
+    years: "2014 - 2016"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gear_icon.svg"
 
-# # =====================================================
-# #  Presentations / Talks Section
-# # =====================================================
+  - title: "Technical Support Engineer"
+    company: "Digipigeon"
+    years: "2013 - 2014"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Helpdesk_icon.png"
+
+# =====================================================
+# 🗣️ Presentations / Talks Section
+# =====================================================
 talks:
-  - title: "[Your Talk Title Here]"
-    location: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link" # FIXME: Not implemented yet
+  - title: "Building Reliable SIP Routing and Monitoring Systems"
+    location: "Connex Carrier Services"
+    date: "2024"
     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
 
-  - title: "Deep Learning with Keras"
-    location: "University of Illinois Urbana-Champaign (UIUC), Prof. Stephen Boppart's Group"
-    date: "Sep 4, 2019"
-    link: "https://example.com/your-talk-link"
-    image: "https://pm25.github.io/static/media/2019-9-4-workshop.b5d2675f.webp"
-# # =====================================================
-# # 🛠 Skills Section
-# # =====================================================
-# skills:
-#     programming:
-#         - "C++"
-#         - "Python"
-#         - "JavaScript"
-#     technologies:
-#         - "React"
-#         - "TailwindCSS"
-#         - "Next.js"
-#         - "AWS"
+  - title: "Practical VoIP Debugging for Real-World Carriers"
+    location: "Internal Training Session"
+    date: "2023"
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
+
+# =====================================================
+# 🛠 Skills Section
+# =====================================================
+skills:
+  programming:
+    - "Bash"
+    - "Python"
+    - "JavaScript"
+  technologies:
+    - "Linux"
+    - "VoIP & SIP"
+    - "Ansible"
+    - "Grafana"
+    - "PRTG"
+    - "Docker"
+    - "Caddy"
+    - "MariaDB"
 
 # # =====================================================
 # # 🌐 Featured Projects Section (Optional)
