@@ -45,6 +45,9 @@ jobs:
       - name: Clean dist folder
         run: rm -rf dist
 
+      - name: Prebuild (YAML → TS)
+        run: npm run prebuild
+
       - name: Build project
         run: npm run build
         env:
