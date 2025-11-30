@@ -3,6 +3,6 @@ export const site = {
   repoUrl: `https://github.com/syedrizwansrs/sriz-me`,
   description: `Technical Operations Manager | SIP, VoIP, Networking & Automation`,
   author: `Rizwan Syed`,
-  base: `/sriz-me/`,
+  base: `/`,
   repoName: `sriz-me`
 };
